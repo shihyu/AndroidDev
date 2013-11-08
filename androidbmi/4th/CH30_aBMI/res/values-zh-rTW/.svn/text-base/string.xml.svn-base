@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">aBMI</string>
+    <string name="app_label">BMI 英制計算器</string>
+    <string name="us_height">身高</string>
+    <string name="feet_prompt">選擇呎</string>
+    <string name="inch_prompt">選擇吋</string>
+    <string name="pound">體重 (lbs)</string>
+    <string name="bmi_btn">計算 BMI 值</string>
+    <string name="bmi_result">你的 BMI 值是...</string>
+    <string name="input_error">哦哦, 欄位中只能輸入數字喔</string>
+    <string name="advice_light">你該多吃點</string>
+    <string name="advice_average">你的體型很不錯喔，好好保持吧！</string>
+    <string name="advice_heavy">你應該減肥囉！</string>
+    <string name="advice_fat">為了健康，你應該馬上採取一些行動囉！</string>
+    <string name="about_label">關於...</string>
+    <string name="about_title">關於 aBMI 1.0</string>
+    <string name="about_msg">aBMI 是個 BMI 值計算器程式, 由 gasolin (gasolin+android@gmail.com) 撰寫</string>
+    <string name="ok_label">OK</string>
+<string-array name="feets">
+     <item>2 呎</item>
+     <item>3 呎</item>
+     <item>4 呎</item>
+     <item>5 呎</item>
+     <item>6 呎</item>
+     <item>7 呎</item>
+     <item>8 呎</item>
+ </string-array>
+<string-array name="inches">
+     <item>0 吋</item>
+     <item>1 吋</item>
+     <item>2 吋</item>
+     <item>3 吋</item>
+     <item>4 吋</item>
+     <item>5 吋</item>
+     <item>6 吋</item>
+     <item>7 吋</item>
+     <item>8 吋</item>
+     <item>9 吋</item>
+     <item>10 吋</item>
+     <item>11 吋</item>
+ </string-array>
+</resources>

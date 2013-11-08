@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aBMI</string>
+    <string name="app_label">BMI for the British system</string>
+    <string name="us_height">Height</string>
+    <string name="feet_prompt">Select Feet</string>
+    <string name="inch_prompt">Select Inches</string>
+    <string name="pound">Weight (lbs)</string>
+    <string name="bmi_btn">Calc BMI</string>
+    <string name="bmi_result">Your BMI is...</string>
+    <string name="input_error">oops, you should type numbers only</string>
+    <string name="advice_light">You should eat more</string>
+    <string name="advice_average">You are in good shape, keep it!</string>
+    <string name="advice_heavy">You should lose some weight</string>
+    <string name="advice_fat">You should do something to improve your situation, right now</string>
+    <string name="about_label">About...</string>
+    <string name="about_title">About aBMI 1.20</string>
+    <string name="about_msg">aBMI is a BMI calculator for the British system, written by gasolin (gasolin+android@gmail.com)</string>
+    <string name="ok_label">OK</string>
+    <string name="yes_label">Yes</string>
+    <string name="no_label">NO</string>
+    <string name="switch_label">cm/kg</string>
+<string-array name="feets">
+     <item>2 Feet</item>
+     <item>3 Feet</item>
+     <item>4 Feet</item>
+     <item>5 Feet</item>
+     <item>6 Feet</item>
+     <item>7 Feet</item>
+     <item>8 Feet</item>
+ </string-array>
+<string-array name="inches">
+     <item>0 Inch</item>
+     <item>1 Inch</item>
+     <item>2 Inches</item>
+     <item>3 Inches</item>
+     <item>4 Inches</item>
+     <item>5 Inches</item>
+     <item>6 Inches</item>
+     <item>7 Inches</item>
+     <item>8 Inches</item>
+     <item>9 Inches</item>
+     <item>10 Inches</item>
+     <item>11 Inches</item>
+ </string-array>
+</resources>

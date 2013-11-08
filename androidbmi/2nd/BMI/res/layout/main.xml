@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="身高 (cm)"
+    />
+    <!-- android:text="@string/hello" -->
+<EditText android:text="" android:id="@+id/height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal"></EditText>
+<TextView android:text="體重 (kg)" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="" android:id="@+id/weight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal"></EditText>
+<Button android:text="計算 BMI" android:id="@+id/submit" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<TextView  
+    android:id="@+id/result"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+<TextView  
+    android:id="@+id/suggest"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+</LinearLayout>

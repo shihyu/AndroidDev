@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+	    android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:text="@string/bmi_result"
+		    />
+        <TextView android:id="@+id/result" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:gravity="center_vertical|center_horizontal"
+			android:padding="18dip"
+			android:textSize="40sp"
+			android:textColor="#d0FFFFFF"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:text="0"
+		    />
+ 	    <TextView android:id="@+id/suggest" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/advice_tip"
+		    android:gravity="center_vertical|center_horizontal"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:background="#FF505050"
+		    />
+		<!-- padding -->
+		<TextView 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    />
+		<TextView 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/bmi_height"
+		    />
+		<EditText android:id="@+id/height" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:inputType="phone|numberDecimal"
+		    android:text=""
+		    />
+		<TextView 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/bmi_weight"
+		    />
+		<EditText android:id="@+id/weight" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:inputType="phone|numberDecimal"
+		    android:text=""
+		    />
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="#FF505050"> 
+        <Button android:id="@+id/submit" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/bmi_btn"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="5dp"
+	    />
+    </LinearLayout>
+</LinearLayout>

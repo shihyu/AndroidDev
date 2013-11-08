@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gBMI</string>
+	<string name="bmi_height">Height (cm)</string>
+    <string name="bmi_weight">Weight (kg)</string>
+    <string name="bmi_btn">Calc BMI</string>
+    <string name="bmi_result">Your BMI is...</string>
+    <string name="input_error">oops, you should type numbers only</string>
+    <string name="advice_light">You could eat more</string>
+    <string name="advice_average">You are in good shape, keep it!</string>
+    <string name="advice_heavy">You could lose some weight</string>
+    <string name="advice_fat">You could do something to improve your situation, right now</string>
+    <string name="advice_tip">Enter your height and weight</string>
+    <string name="about_label">About...</string>
+    <string name="about_title">About gBMI 1.35</string>
+    <string name="about_msg">gBMI is a BMI calculator for the Metric system, brought to you by gasolin (gasolin+android@gmail.com)</string>
+	<string name="ok_label">OK</string>
+	<string name="yes_label">Yes</string>
+    <string name="no_label">NO</string>
+    <string name="bmr_label">Calc BMR</string>
+    <string name="switch_label">inch/lb</string>
+</resources>

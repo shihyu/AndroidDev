@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">gBMI</string>
+	<string name="bmi_height">身高 (cm)</string>
+    <string name="bmi_weight">體重 (kg)</string>
+    <string name="bmi_btn">計算 BMI 值</string>
+    <string name="bmi_result">你的 BMI 值是...</string>
+    <string name="input_error">哦哦, 欄位中只能輸入數字喔</string>
+    <string name="advice_light">你應該多吃點</string>
+    <string name="advice_average">你的體型很不錯喔，好好保持吧！</string>
+    <string name="advice_heavy">你應該減肥囉！</string>
+    <string name="advice_fat">為了健康，你應該馬上採取一些行動囉！</string>
+    <string name="advice_tip">請輸入身高體重</string>
+    <string name="about_label">關於...</string>
+    <string name="about_title">關於 gBMI 1.35</string>
+    <string name="about_msg">gBMI 是個 BMI 值計算器程式, 由 gasolin (gasolin+android@gmail.com) 撰寫</string>
+	<string name="ok_label">OK</string>
+	<string name="yes_label">Yes</string>
+    <string name="no_label">NO</string>
+     <string name="bmr_label">計算 BMR 值</string>
+    <string name="switch_label">inch/lb</string>
+</resources>

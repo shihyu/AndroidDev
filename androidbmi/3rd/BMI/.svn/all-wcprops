@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/814/trunk/3rd/BMI
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/788/trunk/3rd/BMI/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/806/trunk/3rd/BMI/AndroidManifest.xml
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/788/trunk/3rd/BMI/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/788/trunk/3rd/BMI/.classpath
+END

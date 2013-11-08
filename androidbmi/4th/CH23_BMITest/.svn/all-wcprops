@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1196/trunk/4th/CH23_BMITest
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1130/trunk/4th/CH23_BMITest/AndroidManifest.xml
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1196/trunk/4th/CH23_BMITest/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1130/trunk/4th/CH23_BMITest/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1130/trunk/4th/CH23_BMITest/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1130/trunk/4th/CH23_BMITest/.project
+END

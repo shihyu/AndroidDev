@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1255/trunk/4th/CH43_TrainStation
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1248/trunk/4th/CH43_TrainStation/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1248/trunk/4th/CH43_TrainStation/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1248/trunk/4th/CH43_TrainStation/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1248/trunk/4th/CH43_TrainStation/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1250/trunk/4th/CH43_TrainStation/AndroidManifest.xml
+END

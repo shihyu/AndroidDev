@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference android:key="BMI_HEIGHT"
+		android:title="@string/bmi_height"
+		android:summary="@string/bmi_height"
+		>
+	</EditTextPreference>
+</PreferenceScreen>

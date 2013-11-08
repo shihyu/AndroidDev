@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1267/trunk/4th/MyLocation
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1267/trunk/4th/MyLocation/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1267/trunk/4th/MyLocation/AndroidManifest.xml
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1267/trunk/4th/MyLocation/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1267/trunk/4th/MyLocation/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1267/trunk/4th/MyLocation/proguard.cfg
+END
