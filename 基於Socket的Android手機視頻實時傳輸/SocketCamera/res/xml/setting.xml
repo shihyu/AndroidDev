@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ <PreferenceCategory android:title="服务器设置">
+    <EditTextPreference
+   android:key="Username"
+   android:title="用户名"    
+   android:summary="用于连接服务器的用户名"
+   android:defaultValue="XZY"/>
+   <EditTextPreference
+   android:key="ServerUrl"
+   android:title="视频服务器地址"    
+   android:summary="保存服务器地址"
+   android:defaultValue="192.168.1.100"/>
+<EditTextPreference
+   android:key="ServerPort"
+   android:title="服务器端口"    
+   android:summary="连接服务器的端口地址"
+   android:defaultValue="8888"/>
+   </PreferenceCategory>
+<PreferenceCategory android:title="视频设置">
+	<EditTextPreference
+   android:key="VideoPreRate"
+   android:title="视频刷新间隔"    
+   android:summary="设置视频刷新的间隔值，应大于等于0，值越大视频传输间隔越长"
+   android:defaultValue="1"/>
+<EditTextPreference
+   android:key="VideoQuality"
+   android:title="图像质量"    
+   android:summary="设置图像压缩的质量，值为0~100，值越高越清晰，但同时数据也更大"
+   android:defaultValue="85"/>
+<EditTextPreference
+   android:key="VideoWidthRatio"
+   android:title="图像宽度缩放比例"    
+   android:summary="设置图像的宽度缩放比例，值为0~100，值越高图像分辨率越高"
+   android:defaultValue="100"/>
+   <EditTextPreference
+   android:key="VideoHeightRatio"
+   android:title="图像高度缩放比例"    
+   android:summary="设置图像的高度缩放比例，值为0~100，值越高图像分辨率越高"
+   android:defaultValue="100"/>
+    </PreferenceCategory>
+</PreferenceScreen>

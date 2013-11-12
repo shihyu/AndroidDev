@@ -1,0 +1,8 @@
+F:\Workspace\手机摄像头\手机摄像头\bin\Debug\手机摄像头.exe
+F:\Workspace\手机摄像头\手机摄像头\bin\Debug\手机摄像头.pdb
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\手机摄像头.MainForm.resources
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\手机摄像头.PhoneVideoForm.resources
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\手机摄像头.Properties.Resources.resources
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\手机摄像头.exe
+F:\Workspace\手机摄像头\手机摄像头\obj\x86\Debug\手机摄像头.pdb

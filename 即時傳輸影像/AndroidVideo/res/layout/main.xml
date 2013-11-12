@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/remoteIP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <SurfaceView
+        android:id="@+id/surface_camera"
+        android:layout_width="240px"
+        android:layout_height="160px" >
+    </SurfaceView>
+
+</LinearLayout>
