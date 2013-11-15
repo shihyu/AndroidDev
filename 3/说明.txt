@@ -1,0 +1,6 @@
+开发环境为Windows XP+java 1.6+Eclipse3.4.2
+Android版本为1.5
+手机测试平台为HTC Hero
+
+AndroidVideo为手机端的源代码
+AndroidVideoPC为PC端的源代码

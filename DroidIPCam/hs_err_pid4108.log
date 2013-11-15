@@ -1,0 +1,84 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=4108, tid=3556
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01a09800):  JavaThread "Unknown thread" [_thread_in_vm, id=3556, stack(0x00340000,0x00390000)]
+
+Stack: [0x00340000,0x00390000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01a09800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3556, stack(0x00340000,0x00390000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jdk1.6.0_10\bin\javaw.exe
+0x77920000 - 0x77a5c000 	C:\windows\SYSTEM32\ntdll.dll
+0x76b00000 - 0x76bd4000 	C:\windows\system32\kernel32.dll
+0x75870000 - 0x758ba000 	C:\windows\system32\KERNELBASE.dll
+0x76ca0000 - 0x76d40000 	C:\windows\system32\ADVAPI32.dll
+0x77a80000 - 0x77b2c000 	C:\windows\system32\msvcrt.dll
+0x76c00000 - 0x76c19000 	C:\windows\SYSTEM32\sechost.dll
+0x77010000 - 0x770b1000 	C:\windows\system32\RPCRT4.dll
+0x76f40000 - 0x77009000 	C:\windows\system32\USER32.dll
+0x75b50000 - 0x75b9e000 	C:\windows\system32\GDI32.dll
+0x77b40000 - 0x77b4a000 	C:\windows\system32\LPK.dll
+0x77280000 - 0x7731d000 	C:\windows\system32\USP10.dll
+0x76be0000 - 0x76bff000 	C:\windows\system32\IMM32.DLL
+0x76910000 - 0x769dc000 	C:\windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\client\jvm.dll
+0x758c0000 - 0x758f2000 	C:\windows\system32\WINMM.dll
+0x75690000 - 0x756dc000 	C:\windows\system32\apphelp.dll
+0x6d330000 - 0x6d338000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\hpi.dll
+0x77b30000 - 0x77b35000 	C:\windows\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:G:\Program Files\Android\android-sdk\platforms\android-8\android.jar 
+java_command: teaonly.projects.droidipcam.NanoHTTPD
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_10
+CLASSPATH=.;C:\Program Files\Java\jdk1.6.0_10\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_10\lib\tools.jar;
+PATH=C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;f:\app\Administrator\product\11.2.0\dbhome_2\bin;F:\app\Administrator\product\11.2.0\dbhome_1\bin;e:\ruby\bin;D:\Program Files\Sybase\Jaguar CTS 3.5\bin;D:\Program Files\Sybase\Jaguar CTS 3.5\dll;D:\Program Files\Sybase\Jaguar CTS 3.5\client\dll;D:\Program Files\Sybase\Shared\Sun\JDK118\bin;D:\Program Files\Sybase\Shared\PowerBuilder;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\TTKN\Bin;d:\Program Files\Sybase\SQL Anywhere 7\win32;d:\Program Files\Sybase\Shared\win32;d:\Program Files\Sybase\Shared\Sybase Central 4.0\java;d:\Program Files\Sybase\PowerDynamo\win32;d:\Program Files\Sybase\Shared\Sun\jdk118\bin;d:\Program Files\Sybase\Shared\Web Targets;C:\Program Files\Java\jdk1.6.0_10\bin;C:\Program Files\Java\jdk1.6.0_10\jre\bin;F:\pacs\tools\apache-ant-1.8.4\bin;F:\pacs\tools\apache-maven-3.0.4\bin;D:\Program Files\MySQL\MySQL Server 5.5\bin;E:\ruby\bin;G:\Program Files\Android\android-sdk\tools;F:\pacs\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 15 Model 107 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 15 model 107 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, mmxext, 3dnow, 3dnowext
+
+Memory: 4k page, physical 2096464k(610348k free), swap 4194303k(1114296k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Thu Dec 20 17:38:41 2012
+elapsed time: 0 seconds
+
