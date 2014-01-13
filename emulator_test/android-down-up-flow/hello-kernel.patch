@@ -1,0 +1,21 @@
+diff --git a/drivers/Kconfig b/drivers/Kconfig
+index a95047a..e2df351 100755
+--- a/drivers/Kconfig
++++ b/drivers/Kconfig
+@@ -140,4 +140,5 @@ source "drivers/smc/Kconfig"
+ 
+ source "drivers/cir/Kconfig"
+ 
++source "drivers/hello/Kconfig"
+ endmenu
+diff --git a/drivers/Makefile b/drivers/Makefile
+index 8e593d1..1b61f5b 100755
+--- a/drivers/Makefile
++++ b/drivers/Makefile
+@@ -130,3 +130,6 @@ obj-$(CONFIG_TEST_CODE)		+= testcode/
+ obj-y				+= smc/
+ obj-y				+= cir/
+ obj-y				+= dbg/
++
++obj-$(CONFIG_HELLO) += hello/
++

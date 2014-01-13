@@ -1,0 +1,62 @@
+diff --git a/frameworks/base/Android.mk b/frameworks/base/Android.mk
+index 83c4b5b..b399e07 100644
+--- a/frameworks/base/Android.mk
++++ b/frameworks/base/Android.mk
+@@ -127,6 +127,7 @@ LOCAL_SRC_FILES += \
+ 	core/java/android/os/IPowerManager.aidl \
+ 	core/java/android/os/IRemoteCallback.aidl \
+ 	core/java/android/os/IVibratorService.aidl \
++    core/java/android/os/IHelloService.aidl \
+ 	core/java/android/service/wallpaper/IWallpaperConnection.aidl \
+ 	core/java/android/service/wallpaper/IWallpaperEngine.aidl \
+ 	core/java/android/service/wallpaper/IWallpaperService.aidl \
+diff --git a/frameworks/base/services/java/com/android/server/SystemServer.java b/frameworks/base/services/java/com/android/server/SystemServer.java
+index 3ae62ad..488764e 100644
+--- a/frameworks/base/services/java/com/android/server/SystemServer.java
++++ b/frameworks/base/services/java/com/android/server/SystemServer.java
+@@ -535,6 +535,13 @@ class ServerThread extends Thread {
+             }
+ 
+             try {
++                  Slog.i(TAG, "Hello Service");
++                  ServiceManager.addService("hello", new HelloService());
++            } catch (Throwable e) {
++                  Slog.e(TAG, "Failure starting Hello Service", e);
++            }
++
++            try {
+                 // need to add this service even if SamplingProfilerIntegration.isEnabled()
+                 // is false, because it is this service that detects system property change and
+                 // turns on SamplingProfilerIntegration. Plus, when sampling profiler doesn't work,
+diff --git a/frameworks/base/services/jni/Android.mk b/frameworks/base/services/jni/Android.mk
+index 6fa5dfa..498a489 100644
+--- a/frameworks/base/services/jni/Android.mk
++++ b/frameworks/base/services/jni/Android.mk
+@@ -15,6 +15,7 @@ LOCAL_SRC_FILES:= \
+     com_android_server_VibratorService.cpp \
+     com_android_server_location_GpsLocationProvider.cpp \
+     com_android_server_connectivity_Vpn.cpp \
++    com_android_server_HelloService.cpp \
+     onload.cpp
+ 
+ LOCAL_C_INCLUDES += \
+diff --git a/frameworks/base/services/jni/onload.cpp b/frameworks/base/services/jni/onload.cpp
+index 4178039..0018322 100644
+--- a/frameworks/base/services/jni/onload.cpp
++++ b/frameworks/base/services/jni/onload.cpp
+@@ -33,6 +33,7 @@ int register_android_server_VibratorService(JNIEnv* env);
+ int register_android_server_SystemServer(JNIEnv* env);
+ int register_android_server_location_GpsLocationProvider(JNIEnv* env);
+ int register_android_server_connectivity_Vpn(JNIEnv* env);
++int register_android_server_HelloService(JNIEnv *env);
+ };
+ 
+ using namespace android;
+@@ -61,6 +62,7 @@ extern "C" jint JNI_OnLoad(JavaVM* vm, void* reserved)
+     register_android_server_SystemServer(env);
+     register_android_server_location_GpsLocationProvider(env);
+     register_android_server_connectivity_Vpn(env);
++    register_android_server_HelloService(env);
+ 
+     return JNI_VERSION_1_4;
+ }

@@ -1,0 +1,13 @@
+#
+# Headset device configuration
+#
+
+menu "my hello"
+
+config HELLO
+	tristate "First Android Driver"
+	---help---
+	    First Android Driver	
+
+endmenu
+
