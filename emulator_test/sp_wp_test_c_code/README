@@ -1,0 +1,11 @@
+tar xvf hello.tar.bz2
+
+cd hello
+
+mm 
+
+cd  ~/android_jb/out/target/product/generic/system/bin
+
+adb push  helloworld  /data/app
+
+adb shell  ; cd /data/app ;  ./helleworld 
