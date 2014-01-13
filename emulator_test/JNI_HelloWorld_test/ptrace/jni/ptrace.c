@@ -1,0 +1,23 @@
+#include<sys/ptrace.h>
+#include<jni.h>
+#include<stdlib.h>
+    #include <sys/types.h> 
+#include <unistd.h>
+#include<stdio.h>
+#include <string.h>
+jstring Java_com_ptrace_PtraceActivity_attach( JNIEnv* env,
+                                                  jobject thiz )
+    {     
+       
+int ret=ptrace(PTRACE_ATTACH,109,NULL,NULL);
+if(ret<0)
+ return (*env)->NewStringUTF(env,"fail" );
+else{
+
+wait(NULL);
+//ptrace(PTRACE_DETACH,traced_process,NULL,NULL);
+sleep(10);
+
+  return (*env)->NewStringUTF(env,"suce");
+}
+}
