@@ -1,0 +1,28 @@
+gcc -I/usr/lib/jvm/jdk1.6.0_45/include/ -I/usr/lib/jvm/jdk1.6.0_45/include/linux/ -L/usr/lib/jvm/jdk1.6.0_45/jre/lib/amd64/server  c_to_java.c -ljvm
+
+
+@ Makefile
+
+#路徑要改
+CC=gcc
+INCLUDE=-I/usr/lib/jvm/jdk1.6.0_45/include -I/usr/lib/jvm/jdk1.6.0_45/include/linux/
+LIB=/usr/lib/jvm/jdk1.6.0_45/jre/lib/amd64/server/libjvm.so
+
+all:
+    javac MyJavaClass.java
+    $(CC) $(INCLUDE) $(LIB) c_to_java.c     
+clean:
+    rm -f ./a.out  ./*.class
+
+
+/etc/ld.so.conf.d/jvm.conf 
+# 路經要修改一下
+/usr/lib/jvm/jdk1.6.0_45/lib/
+/usr/lib/jvm/jdk1.6.0_45/jre/lib/amd64/
+/usr/lib/jvm/jdk1.6.0_45/jre/lib/amd64/server
+
+
+執行結果：
+$ make
+$ ./a.out 
+Hello World
