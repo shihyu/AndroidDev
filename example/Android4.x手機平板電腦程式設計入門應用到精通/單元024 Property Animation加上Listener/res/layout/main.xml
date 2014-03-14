@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linLay"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/red"
+    android:gravity="center_horizontal"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    >
+<Button android:id="@+id/btnRotateAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="旋轉文字"
+    />
+<Button android:id="@+id/btnAlphaAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="透明文字"
+    />
+<Button android:id="@+id/btnFallAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="文字往下掉"
+    />
+<Button android:id="@+id/btnScaleAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="放大文字"
+    />
+<Button android:id="@+id/btnMoveAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="文字左右移動"
+    />
+<Button android:id="@+id/btnBackColorAnim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="改變背景顏色"
+    />
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+<TextView android:id="@+id/txt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">使用字串資源檔：values-zh-rTW/strings.xml</string>
+    <string name="app_name">多語系和螢幕模式</string>
+</resources>

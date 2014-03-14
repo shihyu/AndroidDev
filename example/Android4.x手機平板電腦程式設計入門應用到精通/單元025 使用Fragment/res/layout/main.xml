@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<fragment android:id="@+id/fragGame"
+    android:name="tw.android.GameFragment"
+    android:layout_width="0dp" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1"
+    />
+<fragment android:id="@+id/fragGameResult"  
+    android:name="tw.android.GameResultFragment"
+    android:layout_width="0dp" 
+    android:layout_height="wrap_content" 
+    android:layout_weight="1"
+    />
+</LinearLayout>

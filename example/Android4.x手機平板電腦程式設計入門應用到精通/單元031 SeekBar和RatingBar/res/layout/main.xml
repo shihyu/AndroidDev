@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+<SeekBar android:id="@+id/seekBar"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:max="100"
+    android:layout_marginTop="20dp"
+    />
+<TextView android:id="@+id/txtSeekBar"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/resultSeekBar"
+    />
+<RatingBar android:id="@+id/ratBar"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    style="?android:attr/ratingBarStyle"
+    android:numStars="5"
+    android:layout_marginTop="20dp"
+    />
+<TextView android:id="@+id/txt1RatBar"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/result1RatBar"
+    />
+<TextView android:id="@+id/txt2RatBar"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/result2RatBar"
+    />
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">請點選上方的Action Item和Action View</string>
+    <string name="app_name">使用選單</string>
+    <string name="menuItemBackgroundMusic">背景音樂</string>
+    <string name="menuItemPlayBackgroundMusic">播放背景音樂</string>
+    <string name="menuItemStopBackgroundMusic">停止播放背景音樂</string>
+    <string name="menuItemSearch">搜尋...</string>
+    <string name="menuItemRegion">選擇地區...</string>
+    <string name="menuItemAbout">關於這個程式...</string>
+    <string name="menuItemExit">結束</string>
+
+	<string-array name="spnRegionList">
+		<item>亞洲</item>
+		<item>美洲</item>
+		<item>歐洲</item>
+	</string-array>
+</resources>

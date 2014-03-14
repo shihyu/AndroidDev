@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    >
+<Spinner android:id="@+id/spnMapType"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+	android:prompt="@string/prompt_select_map_type"
+    />
+<Spinner android:id="@+id/spnLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+	android:prompt="@string/prompt_select_location"
+    />
+</LinearLayout>
+<com.google.android.maps.MapView android:id="@+id/map"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:apiKey="0nlOz0V36UcgYdT0kTmOoNgx-v7ngil2uWoWNAg"
+    android:clickable="true"
+    />
+</LinearLayout>

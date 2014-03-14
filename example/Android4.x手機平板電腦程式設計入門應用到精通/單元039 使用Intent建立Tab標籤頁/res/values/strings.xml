@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">使用Intent建立Tab標籤頁</string>
+	<string name="promptBtnOK">確定</string>
+	<string name="result">您選擇的日期和時間是</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">擲骰子遊戲</string>
+    <string name="btnRollDice">擲骰子</string>
+    <string name="diceResult">點數：</string>
+</resources>

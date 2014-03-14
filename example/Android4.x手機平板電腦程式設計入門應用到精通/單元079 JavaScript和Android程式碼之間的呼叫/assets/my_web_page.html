@@ -1,0 +1,25 @@
+<html>
+
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>My web page</title>
+</head>
+
+<body>
+<input type="button" value="呼叫 Android 程式顯示 Toast" 
+		onClick="callAndroidShowToast('由 JavaScript 呼叫')" />
+<br>
+<img id="img_demo"/>
+
+<script type="text/javascript">
+function callAndroidShowToast(msg) {
+	Android.showToastMsg(msg);
+}
+
+function showImage() {
+	document.getElementById("img_demo").src="file:///android_asset/android.jpg";
+}
+</script>
+</body>
+
+</html>

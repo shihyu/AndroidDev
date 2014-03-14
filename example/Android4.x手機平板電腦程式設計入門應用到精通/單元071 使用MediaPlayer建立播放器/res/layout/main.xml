@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<ImageButton android:id="@+id/btnMediaPlayPause"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@android:drawable/ic_media_play"
+    />
+<ImageButton android:id="@+id/btnMediaStop"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@android:drawable/ic_menu_close_clear_cancel"
+    />
+<ToggleButton android:id="@+id/btnMediaRepeat"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="@android:drawable/ic_menu_revert"
+    />
+<EditText android:id="@+id/edtMediaGoto"
+    android:layout_width="60sp" 
+    android:layout_height="wrap_content" 
+    />
+<ImageButton android:id="@+id/btnMediaGoto"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:src="@android:drawable/ic_menu_directions"
+    />
+</LinearLayout>

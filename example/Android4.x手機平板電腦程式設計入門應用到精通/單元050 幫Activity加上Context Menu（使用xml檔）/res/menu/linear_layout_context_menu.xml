@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/menuItemBackgroundMusic" >
+		<menu>
+		<item android:id="@+id/menuItemPlayBackgroundMusic"
+			  android:title="@string/menuItemPlayBackgroundMusic" />
+		<item android:id="@+id/menuItemStopBackgroundMusic"
+			  android:title="@string/menuItemStopBackgroundMusic" />
+		</menu>
+	</item>
+	<item android:id="@+id/menuItemAbout"
+		  android:title="@string/menuItemAbout" />
+	<item android:id="@+id/menuItemExit"
+		  android:title="@string/menuItemExit" />
+</menu>

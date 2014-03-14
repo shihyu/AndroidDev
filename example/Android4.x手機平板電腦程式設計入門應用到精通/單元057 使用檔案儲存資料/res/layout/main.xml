@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<EditText android:id="@+id/edtIn"
+    android:layout_width="300dp" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+	<Button android:id="@+id/btnAdd"
+	    android:layout_width="100dp" 
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:text="加入檔案"
+	    />
+	<Button android:id="@+id/btnRead"
+	    android:layout_width="100dp" 
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:text="列出檔案內容"
+	    />
+	<Button android:id="@+id/btnClear"
+	    android:layout_width="100dp" 
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:text="清除檔案內容"
+	    />
+</LinearLayout>
+<TextView
+    android:layout_width="300dp" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp" 
+    android:text="檔案內容"
+    />
+<EditText android:id="@+id/edtFileContent"
+    android:layout_width="400dp" 
+    android:layout_height="wrap_content"
+    android:editable="false"
+    />
+</LinearLayout>

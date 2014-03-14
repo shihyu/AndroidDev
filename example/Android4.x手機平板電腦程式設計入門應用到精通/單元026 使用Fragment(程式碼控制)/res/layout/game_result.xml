@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptCountSet"
+    />
+<EditText android:id="@+id/edtCountSet"
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptPlayerWin"
+    />
+<EditText android:id="@+id/edtCountPlayerWin"
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptComWin"
+    />
+<EditText android:id="@+id/edtCountComWin"
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptDraw"
+    />
+<EditText android:id="@+id/edtCountDraw"
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+<Button android:id="@+id/btnStartMyService"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="啟動 MyService"
+    />
+<Button android:id="@+id/btnStopMyService"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="停止 MyService"
+    />
+<Button android:id="@+id/btnBindMyService"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="連結 MyService"
+    />
+<Button android:id="@+id/btnUnbindMyService"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="斷開 MyService"
+    />
+<Button android:id="@+id/btnCallMyServiceMethod"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="呼叫 MyService中的 myMethod()"
+    />
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+</LinearLayout>

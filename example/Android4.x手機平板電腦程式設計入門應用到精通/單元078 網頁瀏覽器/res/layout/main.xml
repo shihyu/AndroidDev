@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/btnGoBack"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="回上一頁"
+    android:enabled="false"
+    />
+<Button android:id="@+id/btnGoForward"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="到下一頁"
+    android:enabled="false"
+    />
+<Button android:id="@+id/btnReload"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="更新"
+    android:enabled="false"
+    />
+<Button android:id="@+id/btnStop"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="停止"
+    android:enabled="false"
+    />
+<TextView 
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="網址："
+    />
+<EditText android:id="@+id/edtUrl"
+    android:layout_width="300dp" 
+    android:layout_height="wrap_content" 
+    android:singleLine="true"
+    />
+<Button android:id="@+id/btnOpenUrl"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="開啟網址"
+    />
+</LinearLayout>
+<WebView android:id="@+id/webView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    />
+</LinearLayout>

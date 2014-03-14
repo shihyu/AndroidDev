@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google 地圖的進階用法</string>
+    <string name="prompt_select_location" >請選擇地點</string>
+    <string name="prompt_select_map_type" >請選擇地圖模式</string>
+</resources>

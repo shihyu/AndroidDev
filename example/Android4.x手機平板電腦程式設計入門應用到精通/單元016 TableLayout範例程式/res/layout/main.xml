@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+<TableRow>
+	<TextView android:text="姓名："
+		android:layout_weight="1"/>
+	<TextView android:text="性別："
+		android:layout_weight="1"/>
+	<TextView android:text="生日："
+		android:layout_weight="1"/>
+</TableRow>
+<TableRow>
+	<EditText android:text="輸入姓名"
+		android:layout_weight="1"/>
+	<EditText android:text="輸入性別"
+		android:layout_weight="1"/>
+	<EditText android:text="輸入生日"
+		android:layout_weight="1"/>
+</TableRow>
+<Button android:text="確定"/>
+</TableLayout>

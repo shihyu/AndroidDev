@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">你好，這個程式的主要類別名稱叫做Main</string>
+    <string name="app_name">選擇興趣</string>
+    <string name="music">音樂  </string>
+    <string name="sing">唱歌  </string>
+    <string name="dance">跳舞  </string>
+    <string name="travel">旅行  </string>
+    <string name="reading">閱讀  </string>
+    <string name="writing">寫作  </string>
+    <string name="climbing">爬山 </string>
+    <string name="swim">游泳  </string>
+    <string name="exercise">運動  </string>
+    <string name="fitness">健身  </string>
+    <string name="photo">攝影  </string>
+    <string name="eating">美食  </string>
+    <string name="painting">繪畫  </string>
+    <string name="promptSelOK">確定</string>
+    <string name="hobList">您的興趣：</string>
+</resources>

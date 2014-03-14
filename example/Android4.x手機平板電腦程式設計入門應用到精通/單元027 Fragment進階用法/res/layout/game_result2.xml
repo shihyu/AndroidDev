@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+<TableRow>
+	<TextView android:text="@string/promptCountSet"
+		android:textSize="20sp"
+	    android:textColor="#0FFFFF"
+	    />
+	<EditText android:id="@+id/edtCountSet"
+		android:editable="false"
+		android:text=""
+		android:layout_weight="1"
+		/>
+</TableRow>
+<TableRow>
+	<TextView android:text="@string/promptPlayerWin"
+		android:textSize="20sp"
+	    android:textColor="#0FFFFF"
+	    />
+	<EditText android:id="@+id/edtCountPlayerWin"
+		android:editable="false"
+		android:text=""
+		android:layout_weight="1"
+		/>
+</TableRow>
+<TableRow>
+	<TextView android:text="@string/promptComWin"
+		android:textSize="20sp"
+	    android:textColor="#0FFFFF"
+	    />
+	<EditText android:id="@+id/edtCountComWin"
+		android:editable="false"
+		android:text=""
+		android:layout_weight="1"
+		/>
+</TableRow>
+<TableRow>
+	<TextView android:text="@string/promptDraw"
+		android:textSize="20sp"
+	    android:textColor="#0FFFFF"
+	    />
+	<EditText android:id="@+id/edtCountDraw"
+		android:editable="false"
+		android:text=""
+		android:layout_weight="1"
+		/>
+</TableRow>
+</TableLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+<Button android:id="@+id/btnBrowseWWW"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="瀏覽網頁"
+    android:layout_marginTop="20dp"
+    />
+<Button android:id="@+id/btnPlayMP3"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="播放MP3"
+    />
+<Button android:id="@+id/btnViewImg"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="顯示圖片"
+	/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+</LinearLayout>

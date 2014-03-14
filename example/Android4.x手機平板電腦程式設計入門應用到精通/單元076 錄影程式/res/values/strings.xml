@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">錄製影片</string>
+    <string name="play_video_activity_title">撥放影片</string>
+</resources>

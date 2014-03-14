@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">你好，這個程式的主要類別名稱叫做Main</string>
+    <string name="app_name">婚姻建議</string>
+	<string name="promptSex">性別：</string>
+	<string name="promptAge">年齡：</string>
+	<string name="promptBtnDoSug">婚姻建議</string>
+	<string name="sugResult">結果：</string>
+    <string name="sugNotHurry">還不急。</string>
+    <string name="sugGetMarried">趕快結婚！</string>
+    <string name="sugFindCouple">開始找對象。</string>
+	<string name="male">男生</string>
+	<string name="female">女生</string>
+	<string name="maleAgeRng1">小於28歲</string>
+	<string name="maleAgeRng2">28~33歲</string>
+	<string name="maleAgeRng3">大於33歲</string>
+	<string name="femaleAgeRng1">小於25歲</string>
+	<string name="femaleAgeRng2">25~30歲</string>
+	<string name="femaleAgeRng3">大於30歲</string>
+</resources>

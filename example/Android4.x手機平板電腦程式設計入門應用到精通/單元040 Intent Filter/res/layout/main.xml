@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<Button android:id="@+id/btnBrowseWWW"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="瀏覽網頁"
+    android:layout_marginTop="20dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    />
+<Button android:id="@+id/btnEditImg"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="編輯圖片"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    />
+<Button android:id="@+id/btnViewImg"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="檢視圖片"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intent Filter 範例程式</string>
+    <string name="title_MyImageAct">我的 Intent Filter 服務程式</string>
+</resources>

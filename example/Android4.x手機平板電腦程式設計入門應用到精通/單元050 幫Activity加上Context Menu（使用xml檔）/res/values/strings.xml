@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">請按住螢幕並維持一秒鐘</string>
+    <string name="app_name">使用 Context Menu</string>
+    <string name="menuItemBackgroundMusic">背景音樂</string>
+    <string name="menuItemPlayBackgroundMusic">播放背景音樂</string>
+    <string name="menuItemStopBackgroundMusic">停止播放背景音樂</string>
+    <string name="menuItemAbout">關於這個程式...</string>
+    <string name="menuItemExit">結束</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">你好，這個程式的主要類別名稱叫做Main</string>
+    <string name="app_name">我的第一個Android應用程式</string>
+
+</resources>

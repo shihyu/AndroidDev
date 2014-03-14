@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是內定的ProgressBar型態："
+    />
+<ProgressBar android:id="@+id/proBar1"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleHorizontal的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar2"
+	style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:max="100"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleLarge的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar3"
+	style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="這是progressBarStyleSmall的型態："
+    android:layout_marginTop="20dp"
+    />
+<ProgressBar android:id="@+id/proBar4"
+	style="?android:attr/progressBarStyleSmall"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+</LinearLayout>

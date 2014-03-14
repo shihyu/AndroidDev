@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="全部局數："
+    />
+<EditText android:id="@+id/edtCountSet"
+       android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="玩家贏："
+    />
+<EditText android:id="@+id/edtCountPlayerWin"
+       android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="電腦贏："
+    />
+<EditText android:id="@+id/edtCountComWin"
+       android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="平手："
+    />
+<EditText android:id="@+id/edtCountDraw"
+    	android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:editable="false"
+	    android:text=""
+	    />
+<Button android:id="@+id/btnBackToGame"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="回到遊戲"
+    />
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    />
+</LinearLayout>

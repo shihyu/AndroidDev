@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    >
+<TextView
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="使用者名稱："
+    />
+<EditText android:id="@+id/edtUserName"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+<TextView
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="密碼："
+    />
+<EditText android:id="@+id/edtPassword"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:text=""
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+<Button android:id="@+id/btnOK"
+    android:layout_width="160dp" 
+    android:layout_height="wrap_content" 
+    android:text="確定登入"
+    />
+<Button android:id="@+id/btnCancel"
+    android:layout_width="80dp" 
+    android:layout_height="wrap_content" 
+    android:text="取消"
+    />
+</LinearLayout>
+</LinearLayout>

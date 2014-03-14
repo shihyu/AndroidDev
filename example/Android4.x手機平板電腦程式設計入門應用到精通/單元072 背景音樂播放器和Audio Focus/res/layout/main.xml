@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+<Button android:id="@+id/btnStart"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="開始播放"
+    />
+<Button android:id="@+id/btnPause"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="暫停播放"
+    />
+<Button android:id="@+id/btnStop"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="停止播放"
+    />
+<Button android:id="@+id/btnSetRepeat"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="重複播放"
+    />
+<Button android:id="@+id/btnCancelRepeat"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="取消重複播放"
+    />
+<EditText android:id="@+id/edtGoto"
+    android:layout_width="60sp" 
+    android:layout_height="wrap_content" 
+    />
+<Button android:id="@+id/btnGoto"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="跳至指定位置（秒）"
+    />
+<Button android:id="@+id/btnAddToMediaStore"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="加入 mp3 檔"
+    />
+</LinearLayout>

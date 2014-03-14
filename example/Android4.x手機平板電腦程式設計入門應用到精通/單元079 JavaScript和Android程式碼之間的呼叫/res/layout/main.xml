@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:id="@+id/btnLoadHtml"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="載入網頁"
+    />
+<Button android:id="@+id/btnShowImage"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="在網頁中顯示圖片"
+    />
+<Button android:id="@+id/btnBuildHtml"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="用程式碼建立網頁"
+    />
+</LinearLayout>
+<WebView android:id="@+id/webView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    />
+</LinearLayout>

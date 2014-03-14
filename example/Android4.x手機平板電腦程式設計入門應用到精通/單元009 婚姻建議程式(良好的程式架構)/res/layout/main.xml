@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptSex"
+    />
+<EditText android:id="@+id/edtSex"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="text"
+    android:text=""
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptAge"
+    />
+<EditText android:id="@+id/edtAge"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="number"
+    android:text=""
+    />
+<Button android:id="@+id/btnDoSug"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/promptBtnDoSug"
+    />
+<TextView android:id="@+id/txtResult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sugResult"
+    />
+</LinearLayout>
