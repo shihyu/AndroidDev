@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"    
+    >
+
+ <Button
+	android:id="@+id/startServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="启动普通服务"
+	/>
+<Button
+	android:id="@+id/sutdownServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="停止普通服务"
+	/>
+<Button
+	android:id="@+id/startBindServerButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="启动绑定服务服务"
+	/>
+
+</LinearLayout>
